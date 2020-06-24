@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cri1"
+        android:title="LGC1"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cri2"
+        android:title="LGC2"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cri3"
+        android:title="LGC3"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cri4"
+        android:title="AUDI1"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cri5"
+        android:title="AUDI2"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cri6"
+        android:title="NAB205"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cri7"
+        android:title="NAB304"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cri8"
+        android:title="NAB306"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cri9"
+        android:title="NAB206"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cri10"
+        android:title="NAB204"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cri11"
+        android:title="RS LAB"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cri12"
+        android:title="MS LAB"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cri13"
+        android:title="EMPTY ROOM"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/val1"
+        android:title="1"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/val2"
+        android:title="2"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/val3"
+        android:title="3"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/val4"
+        android:title="4"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/val5"
+        android:title="5"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/val6"
+        android:title="6"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/val7"
+        android:title="7"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/val8"
+        android:title="8"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/val9"
+        android:title="9"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/val10"
+        android:title="10"
+        app:showAsAction="always"/>
+
+</menu>

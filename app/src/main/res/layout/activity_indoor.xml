@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    tools:context=".Indoor">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/indoor"
+            android:textColor="#2447b9"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="25dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/textStyle"
+                android:hint="Name of the Institute"
+                android:inputType="textPersonName"
+                android:id="@+id/Instituename"
+                android:onClick="showMenu"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/textStyle"
+                android:hint="Class room Id"
+                android:inputType="text"
+                android:id="@+id/classid"
+                android:onClick="showMenu"/>
+        </com.google.android.material.textfield.TextInputLayout>
+<!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <SeekBar
+                android:id="@+id/numberOfStudents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/studentNumberText"
+                android:text="0"/>
+        </LinearLayout>
+-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/textStyle"
+                android:hint="Number of occupants"
+                android:inputType="numberDecimal"
+                android:id="@+id/occupants"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/textStyle"
+                android:inputType="numberDecimal"
+                android:maxLength="2"
+                android:hint="Number of ac's in ON status"
+                android:id="@+id/ac"
+                android:onClick="showMenu"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:hint="Number of fan's in ON status"
+                android:inputType="numberDecimal"
+                android:maxLength="2"
+                style="@style/textStyle"
+                android:id="@+id/fan"
+                android:onClick="showMenu"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/textStyle"
+                android:hint="Number of windows open"
+                android:inputType="numberDecimal"
+                android:maxLength="2"
+                android:id="@+id/window"
+                android:onClick="showMenu"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/textStyle"
+                android:hint="Number of doors open"
+                android:inputType="numberDecimal"
+                android:maxLength="2"
+                android:id="@+id/door"
+                android:onClick="showMenu"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/textStyle"
+                android:hint="Class start time"
+                android:inputType="time"
+                android:id="@+id/start_time"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/textStyle"
+                android:hint="Class end time"
+                android:inputType="time"
+                android:id="@+id/end_time"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveIndoor"
+            android:text="Save Indoor"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:layout_marginBottom="40dp"
+            android:background="#eeeeee"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:fontFamily="casual"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

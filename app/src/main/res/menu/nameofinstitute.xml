@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/i1"
+        android:title="Indian Institute of Technology Kharagpur"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/i2"
+        android:title="Indian Institute of Engineering Science and Technology Shibpur"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/i3"
+        android:title="Jadavpur University, Kolkata"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/i4"
+        android:title="National Institute of Technology Durgapur"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/i5"
+        android:title="Institute of Engineering and Management, Kolkata"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/i6"
+        android:title="Heritage Institute of Technology, Kolkata"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/i7"
+        android:title="Maulana Abul Kalam Azad University of Technology, Kolkata"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/i8"
+        android:title="University of Calcutta, Kolkata"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/i9"
+        android:title="Haldia Institute of Technology, Haldia"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/i10"
+        android:title="Techno India University, Kolkata"
+        app:showAsAction="always"/>
+
+</menu>

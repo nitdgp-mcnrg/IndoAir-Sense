@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_color"
+
+    tools:context="com.example.saurabhomer.cityprobe.Graphset">
+    <TextView
+        android:id="@+id/status_graph"
+        android:text="@string/status"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:context="com.example.saurabhomer.cityprobe.Graphset">
+        <Button
+            android:id="@+id/pm1"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:text="pm1"
+            />
+        <Button
+            android:id="@+id/pm25"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:text="pm2.5"
+            />
+        <Button
+            android:id="@+id/pm10"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:text="pm10"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:context="com.example.saurabhomer.cityprobe.Graphset">
+        <Button
+            android:id="@+id/no2"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:text="no2"
+            />
+
+
+        <Button
+            android:id="@+id/co"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:text="co"
+            />
+        <Button
+            android:id="@+id/co2"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:text="co2"
+            />
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lineChart"
+        ></com.github.mikephil.charting.charts.LineChart>
+</LinearLayout>

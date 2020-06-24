@@ -1,0 +1,86 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:id="@+id/progress_bar_Loading_Data"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/LayoutLoaded">
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/actv_device_Lists"
+            android:hint="Write Device Id"/>
+
+        <AutoCompleteTextView
+            android:hint="Location Indoor/Outdoor/ default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/location"
+            android:id="@+id/spinner_ind_out"
+            android:spinnerMode="dialog" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/college"
+            android:id="@+id/spinner_college"
+            android:spinnerMode="dialog"
+            android:layout_marginTop="15dp" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/classroom"
+            android:id="@+id/spinner_class_name"
+            android:spinnerMode="dialog"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:hint="Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:inputType="date"
+            android:onClick="showDateDialog"
+            android:id="@+id/editText_date"
+            android:layout_marginTop="15dp"/>
+        <AutoCompleteTextView
+            android:hint="Classroom/Pollution Data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/data_type"
+            android:id="@+id/spinner_class_poll"
+            android:spinnerMode="dialog"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/fetch_data"
+            android:layout_marginTop="15dp"
+            android:text="Fetch Data" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/message_box"
+            android:hint="Fetched Data"
+            android:padding="10dp"
+            android:gravity="top"
+            android:overScrollMode="always"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:id="@+id/show_data_text_format"/>
+    </LinearLayout>
+
+</LinearLayout>
